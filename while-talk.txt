@@ -1,0 +1,39 @@
+//- something that outputs assembly with an easy dependent function to modify
+//- the dependent function has more than one instruction to step through
+//- the output prints to terminal for feedback
+//- the result of the program cannot be predicted from analysis of the source code alone
+#include <stdio.h>
+#include <stdlib.h>
+
+int transform (int a,int b) {
+    return a + b * 2 ;
+}
+
+int main (int argn,char** args) {
+    int v ;
+    
+    int count ;
+    
+    int i = 1 ;
+    for (;i < 1;i = i + 1) {
+        
+    }
+    
+    while (??) {
+        .
+    }
+    
+    
+    do {
+        int  value        ;
+        char buffer[1024] ;
+        count = scanf ("%d %s",&value,buffer) ;
+        if (count != 2) break ;
+
+        printf ("-- scanf {%d} val:buf %d:%s --\n",count,value,buffer) ;
+    }
+    while (1) ;
+    
+    printf ("-- test %d --\n",v) ;
+    return 0                     ;
+}
